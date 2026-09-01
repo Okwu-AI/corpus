@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this corpus, please cite it."
+title: "African Language Parallel Corpus"
+type: dataset
+authors:
+  - name: "Okwu"
+    website: "https://okwu.ai"
+version: "1.0.0"
+date-released: "2026-08-31"
+license: CDLA-Permissive-2.0
+repository-code: "https://github.com/Okwu-AI/corpus"
+url: "https://huggingface.co/datasets/Okwu/african-language-parallel-corpus"

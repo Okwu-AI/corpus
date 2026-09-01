@@ -1,0 +1,12 @@
+{
+  "release_version": "1.0.0",
+  "released_at": "",
+  "schema_version": "1.0.0",
+  "doi": "",
+  "licence": { "data": "CDLA-Permissive-2.0", "code": "Apache-2.0" },
+  "counts": { "yor-eng": 0, "swa-eng": 0, "pcm-eng": 0 },
+  "unicode_normalisation": "NFC",
+  "checks_passed": ["schema", "normalisation", "duplicates"],
+  "approvals": [],
+  "files": []
+}

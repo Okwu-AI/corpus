@@ -1,0 +1,36 @@
+name: checks
+on: [push, pull_request]
+
+jobs:
+  hygiene:
+    name: repo hygiene
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Required files present
+        run: |
+          for f in LICENSE README.md CONTRIBUTING.md CODE_OF_CONDUCT.md GOVERNANCE.md SECURITY.md; do
+            [ -f "$f" ] || { echo "::error::missing $f"; exit 1; }
+          done
+
+  schema:
+    name: records validate against schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install jsonschema
+      - run: python validation/check_schema.py
+
+  normalisation:
+    name: unicode form is consistent
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python validation/check_normalisation.py
+
+  duplicates:
+    name: no duplicate pairs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python validation/check_duplicates.py

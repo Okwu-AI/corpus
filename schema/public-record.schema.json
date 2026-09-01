@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://okwu.ai/schema/public-record/1.0.0",
+  "title": "Public record (published release schema)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id","source_lang","source_text","source_text_normalized","english_translation","verified","source","created_at"],
+  "properties": {
+    "record_id": {"type":"string"},
+    "source_lang": {"enum":["yor","swa","pcm"]},
+    "source_text": {"type":"string","minLength":1},
+    "source_text_normalized": {"type":"string","minLength":1},
+    "english_translation": {"type":"string","minLength":1},
+    "verified": {"type":"boolean"},
+    "source": {"type":"string"},
+    "source_url": {"type":"string"},
+    "created_at": {"type":"string"}
+  }
+}

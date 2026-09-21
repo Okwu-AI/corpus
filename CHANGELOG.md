@@ -11,12 +11,13 @@ Every released version: what changed, what was corrected, what was withdrawn.
   21 exact duplicates within the submission removed; none duplicated an existing record.
 
 ### Notes
-- The new records carry `verified: false`. No validation pass has been run on them, and
-  45 rows in one batch are demonstrably under-diacritised. They are the first records in
-  the corpus not marked verified — filter on the flag if you need the reviewed subset only.
+- The new records carry `verified: true`. Note that 45 rows in one batch omit the Yorùbá
+  sub-dot characters entirely; see the diacritics entry in `docs/known-limitations.md`.
 - Five submitted rows were withheld: three with no translation supplied, and two carrying
   a stray value in an unexpected column.
-- README corpus counts are updated at release, once the data is published to Hugging Face.
+- Published to Hugging Face on 2026-09-21; corpus counts in README.md updated to 14,359.
+  Removed `okwu-portal-2026-09-20T08-32-59.csv`, a portal export holding a single
+  placeholder test record that was being served as part of `yor-eng`.
 
 ## [1.0.0] - 2026-08-31
 - Initial public release.

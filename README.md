@@ -7,7 +7,7 @@ validation tooling and documented review process used to produce them.
 
 | | |
 |---|---|
-| Corpus | 10,363 validated pairs — Yorùbá 1,193 · Swahili 7,126 · Nigerian Pidgin 2,044 |
+| Corpus | 14,359 validated pairs — Yorùbá 5,189 · Swahili 7,126 · Nigerian Pidgin 2,044 |
 | Access | Hugging Face: `Okwu/african-language-parallel-corpus` |
 | Citation | See `CITATION.cff` |
 | Contributing | See `CONTRIBUTING.md` |

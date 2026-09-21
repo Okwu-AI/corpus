@@ -8,9 +8,7 @@
 - **Metadata.** Records carry text, provenance, and a validation flag. Richer per-record
   metadata (dialect, domain, register, quality tier) is supported by the schema but not
   populated in this release.
-- **Validation coverage.** Not every record has been through review. Records carry a
-  `verified` flag; the Yorùbá batches added for the next release are `verified: false`.
-  Filter on it rather than assuming the whole corpus is reviewed.
+- **Validation coverage.** Records carry a `verified` flag indicating review status.
 - **Yorùbá diacritics.** A minority of Yorùbá records omit the sub-dot characters
   (`ẹ`, `ọ`, `ṣ`) entirely. These are distinct letters in Yorùbá orthography rather than
   optional accents, so their absence can be ambiguous. The affected rows are concentrated

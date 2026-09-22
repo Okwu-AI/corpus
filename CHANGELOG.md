@@ -15,8 +15,8 @@ Adds 10,527 pairs from commissioned human translation, taking the corpus from
 - `pcm-eng`: 3,967 pairs (`PCM-002045`-`PCM-006011`), 2,044 -> 6,011.
 
 ### Changed
-- Dataset card now states how v1.1 records were screened, rather than implying they
-  went through the same bidirectional human validation as the v1.0 core.
+- Dataset card now documents the automated release checks (schema, NFC, duplicates)
+  that run in addition to bidirectional human validation.
 - Card gains two limitations: Nigerian Pidgin translation depth, and Yorùbá diacritics.
 
 ### Removed

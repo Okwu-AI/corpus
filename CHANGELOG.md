@@ -31,7 +31,7 @@ Adds 10,527 pairs from commissioned human translation, taking the corpus from
   agreement propagates across the break, so the second half was translated against a
   guess about the first.
 - 26 Nigerian Pidgin rows left in English.
-- 13 duplicates, 3 rows where Pidgin had leaked into the English source column, and
+- 12 duplicates, 3 rows where Pidgin had leaked into the English source column, and
   2 untranslated Swahili rows.
 - 5 Yorùbá rows: three with no translation supplied, two carrying a stray value in an
   unexpected column. 21 exact duplicate Yorùbá pairs were also removed.

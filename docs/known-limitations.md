@@ -16,4 +16,9 @@
 - **Unicode form.** All text is NFC. Yorùbá combines a dot-below with a tone mark on the
   same vowel and several such combinations have no precomposed codepoint, so consumers
   comparing strings should normalise to NFC before comparing.
+- **Translation depth (Nigerian Pidgin).** Pidgin is English-lexified, so high word overlap
+  with the English source is expected. Even allowing for that, roughly 340 records added in
+  v1.1 sit close to the English, carrying Pidgin function words and orthography over
+  otherwise English phrasing. They are genuine renderings rather than untranslated text,
+  but they are thin, and they cluster in one contributed batch.
 

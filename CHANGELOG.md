@@ -4,10 +4,52 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-09-28
+
+Adds 7,844 pairs from commissioned human translation, taking the corpus from
+24,886 to 32,730.
+
+### Added
+- `yor-eng`: 4,245 pairs (`YOR-005190`-`YOR-009434`), 5,189 -> 9,434. Includes the
+  1,000 sentences never previously sent for Yorùbá (state of healthcare, Housing and
+  Landlords, part of First time in Nigeria) and 652 Sheet10 sentences not yet in any
+  language.
+- `pcm-eng`: 3,599 pairs (`PCM-006012`-`PCM-009610`), 6,011 -> 9,610. Includes 999
+  First time in Nigeria and Nigerian Cuisine sentences and 647 Sheet10 sentences that
+  Pidgin had not received.
+
+### Changed
+- Ingest now admits only rows whose English exactly matches the approved source text.
+- Dataset card: the automated-checks description is no longer tied to a single release,
+  and the Pidgin translation-depth limitation is re-measured across all records added
+  since v1.1.
+
+### Corrected
+- The dataset card said "Version 1.0", labelled its counts table "v1.0", and cited
+  `version = 1.0.0` — all stale since v1.1. Now 1.2 / 1.2.0.
+- The 1.1.0 entry below originally said it added 10,527 pairs from 14,359. Measured from
+  the previous release (1.0.0) it added 14,523, from 10,363.
+
+### Excluded from release
+From the 2026-09-28 submissions:
+- 132 rows whose English had been edited by the translator or did not come from the
+  approved source (91 Yorùbá, 41 Pidgin).
+- 318 Pidgin rows in a mixed sheet whose English is not from the approved source,
+  313 of them raw data that failed English QA.
+- 14 duplicate Yorùbá pairs; 6 untranslated and 1 empty Pidgin row.
+- Whole sheets not admitted: the *When Manna Ceases* book in both languages (not approved
+  for translation; still contains broken sentence splits), a Yorùbá raw-data sheet (lines
+  that failed English QA plus an extract approved only conditionally), a duplicate Pidgin
+  sheet, and two files whose provenance is unconfirmed.
+
+### Notes
+- Invisible characters (zero-width spaces and similar) removed from 44 Yorùbá rows.
+- All text NFC. All records ship `verified: true`.
+
 ## [1.1.0] - 2026-09-22
 
-Adds 10,527 pairs from commissioned human translation, taking the corpus from
-14,359 to 24,886.
+Adds 14,523 pairs from commissioned human translation, taking the corpus from
+10,363 to 24,886.
 
 ### Added
 - `yor-eng`: 3,996 pairs (`YOR-001194`-`YOR-005189`), 1,193 -> 5,189.

@@ -4,6 +4,28 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-09-30
+
+Adds 4,954 pairs from commissioned human translation, taking the corpus from
+32,730 to 37,684.
+
+### Added
+- `swa-eng`: 4,954 pairs (`SWA-013687`-`SWA-018640`), 13,686 -> 18,640. The Swahili
+  translation of the full Neighbours workbook: Neighbours, Farmers diary, Final Year,
+  My trip to America, and My fathers new wife.
+
+### Changed
+- Ingest now also rejects cells containing non-Latin script, embedded line breaks,
+  non-translation text or several alternative renderings, and rows whose length is far
+  outside the sheet norm.
+
+### Excluded from release
+From the 2026-09-30 submission:
+- 18 faulty rows: 8 carrying several alternative renderings in one cell, 3 with stray
+  non-Latin script, 3 with line breaks inside the cell, 2 whose Swahili belonged to a
+  different sentence, and 2 with an empty cell.
+- 31 duplicate pairs and 1 line already live in `swa-eng`.
+
 ## [1.2.0] - 2026-09-28
 
 Adds 7,844 pairs from commissioned human translation, taking the corpus from

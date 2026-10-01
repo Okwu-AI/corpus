@@ -1,8 +1,9 @@
 # Known limitations
 
-- **Register.** Content is everyday/beginner register: greetings, conversation, and common
-  vocabulary. It suits foundational machine-translation and language-learning use, and is not
-  a broad-domain or literary corpus.
+- **Register.** The v1.0 core is everyday/beginner register: greetings, conversation, and
+  common vocabulary. Later releases add longer narrative prose and dialogue, including short
+  stories, a diary and a historical screenplay, so sentence length and register vary widely
+  across records. It is not a broad-domain corpus.
 - **Composition.** Includes short phrases and single-word vocabulary entries alongside full
   sentences.
 - **Metadata.** Records carry text, provenance, and a validation flag. Richer per-record

@@ -4,6 +4,48 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-10-06
+
+Adds 18,039 pairs, taking the corpus from 46,219 to 64,258.
+
+### Added
+- `swa-eng`: 5,900 pairs (`SWA-018641`-`SWA-024540`), 18,640 -> 24,540. Six stories from the
+  approved Data Check Batch 4 and Tortoise workbooks: Kunle, Ahmed and Taiye; Becoming a
+  doctor; Obong wins the Olympics; Tortoise; career day; Iya Amala.
+- `yor-eng`: 5,832 pairs (`YOR-012983`-`YOR-018814`), 12,982 -> 18,814. Six stories: My trip
+  to America; My father's new wife; Tortoise; career day; Iya Amala; Kunle, Ahmed and Taiye.
+- `pcm-eng`: 6,307 pairs (`PCM-014598`-`PCM-020904`), 14,597 -> 20,904. Six stories (My
+  father's new wife; Tortoise; career day; Iya Amala; Kunle, Ahmed and Taiye; Farmers diary)
+  and 434 lines from the Data Checking Pidgin Extract, approved for translation on 2026-09-17
+  on condition that its broken rows and repeated lines were removed.
+
+### Changed
+- Ingest now also rejects a translation that repeats the previous row's translation, and AI
+  tool messages such as "I'm still learning and can't help with that" left in a cell.
+- Every admitted row was checked for alignment against its own English before release.
+- Dataset card: counts updated, the Pidgin translation-depth limitation re-measured, and the
+  Register note reflowed.
+
+### Excluded from release
+- 328 faulty rows:
+  - 172 whose English had been edited by the translator, so it no longer matches the
+    approved source (112 Yorùbá, 60 Pidgin).
+  - 52 found by the alignment check: 29 carrying the translation of a different sentence
+    (20 Swahili rows repeating the previous row's Swahili, a 7-row run shifted by one in the
+    Yorùbá Tortoise sheet, 2 Pidgin), 14 that drop most of the English (11 Yorùbá,
+    3 Pidgin), and 9 holding a tool message or unrelated text instead of a translation
+    (7 Swahili, 1 Yorùbá, 1 Pidgin).
+  - 42 left untranslated; 27 from the extract condition (18 broken mid-sentence, 9 repeated
+    lines); 12 far outside the length norm; 10 with an empty cell; 6 with several
+    alternatives in one cell; 3 repeating the previous row's translation; 2 with a line break;
+    1 in a non-Latin script; 1 tool message.
+- 75 duplicate pairs and 28 lines already live.
+
+### Notes
+- The "Yoruba raw data" sheet in the Yorùbá submission is the 2026-09-30 export already
+  published in 1.4.0, so it adds nothing.
+- All text NFC. All records ship `verified: true`.
+
 ## [1.5.0] - 2026-10-02
 
 Adds 6,968 pairs, taking the corpus from 39,251 to 46,219.

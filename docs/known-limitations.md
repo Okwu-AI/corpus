@@ -3,8 +3,7 @@
 - **Register.** The v1.0 core is everyday/beginner register: greetings, conversation, and
   common vocabulary. Later releases add longer narrative prose and dialogue, including short
   stories, a diary, a historical screenplay and a Christian devotional book, so sentence length
-  and register vary widely
-  across records. It is not a broad-domain corpus.
+  and register vary widely across records. It is not a broad-domain corpus.
 - **Composition.** Includes short phrases and single-word vocabulary entries alongside full
   sentences.
 - **Metadata.** Records carry text, provenance, and a validation flag. Richer per-record

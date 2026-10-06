@@ -4,6 +4,36 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-10-02
+
+Adds 6,968 pairs, taking the corpus from 39,251 to 46,219.
+
+### Added
+- `pcm-eng`: 4,987 pairs (`PCM-009611`-`PCM-014597`), 9,610 -> 14,597. The 2026-09-28
+  raw-data export (3,215), lines found only in the earlier 2026-09-14 export (818), and the
+  When Manna Ceases book sheet (954).
+- `yor-eng`: 1,981 pairs (`YOR-011002`-`YOR-012982`), 11,001 -> 12,982. Lines found only in
+  the 2026-09-14 raw-data export (1,067), and the When Manna Ceases book sheet (914).
+
+### Changed
+- Book content is published in Pidgin and Yorùbá. NKENNE owns the books and has approved
+  them for translation and release under CDLA-Permissive-2.0, which lifts the 1.2.0 hold on
+  the When Manna Ceases sheets (not approved for translation; broken sentence splits). As in
+  1.1.0, rows broken mid-sentence are excluded.
+- Where two exports of the same data overlap, the later export's translation is used.
+- Dataset card and `docs/known-limitations.md`: the register note names the devotional
+  book, and the Pidgin translation-depth limitation is re-measured.
+
+### Corrected
+- The 1.1.0 entry did not say that it published book content in Swahili and Pidgin: about
+  1,560 and 960 records from When Manna Ceases and a second devotional book, The Battle Cry.
+
+### Excluded from release
+- 186 faulty rows: 51 broken mid-sentence in the book sheets, 108 left untranslated,
+  10 with an empty cell, 9 with several alternatives in one cell, 7 far outside the
+  length norm (an omitted stage direction or the wrong sentence), and 1 with a line break.
+- 69 duplicate pairs and 78 lines already live.
+
 ## [1.4.0] - 2026-10-01
 
 Adds 1,567 pairs, taking the corpus from 37,684 to 39,251.

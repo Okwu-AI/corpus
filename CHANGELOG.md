@@ -4,6 +4,25 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-01
+
+Adds 1,567 pairs, taking the corpus from 37,684 to 39,251.
+
+### Added
+- `yor-eng`: 1,567 pairs (`YOR-009435`-`YOR-011001`), 9,434 -> 11,001. NKENNE-owned
+  content: a screenplay about Patrice Lumumba, and everyday dialogue and narrative.
+
+### Changed
+- Dataset card and `docs/known-limitations.md`: the register note now reflects the
+  narrative prose and dialogue added since v1.1, rather than describing the whole corpus as
+  beginner lesson content.
+
+### Excluded from release
+From the 2026-09-30 submission:
+- 5 faulty rows: 2 with an empty cell, 2 incomplete translations (the Yorùbá omits part of
+  the English), and 1 carrying two alternative renderings in one cell.
+- 8 duplicate pairs.
+
 ## [1.3.0] - 2026-09-30
 
 Adds 4,954 pairs from commissioned human translation, taking the corpus from

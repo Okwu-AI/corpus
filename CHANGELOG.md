@@ -4,6 +4,47 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-10-13
+
+Adds 24,582 pairs, taking the corpus from 64,258 to 88,840.
+
+### Added
+- `yor-eng`: 10,665 pairs (`YOR-018815`-`YOR-029479`), 18,814 -> 29,479. Eleven stories from
+  the approved workbooks: Obong wins the Olympics; Math semester; Triplets; The community
+  hospital; Taxi driver; In Paris; Going to the zoo; Climbing the highest peak; Nightmare;
+  Becoming a doctor; The divorce.
+- `pcm-eng`: 8,975 pairs (`PCM-020905`-`PCM-029879`), 20,904 -> 29,879. Obong wins the
+  Olympics; Taxi driver; Nightmare; Triplets; Climbing the highest peak; The divorce; The
+  community hospital; Math semester; Going to the zoo; and the first lines of In Paris and
+  World cup.
+- `swa-eng`: 4,942 pairs (`SWA-024541`-`SWA-029482`), 24,540 -> 29,482. Taxi driver;
+  Nightmare; Triplets; The community hospital; Climbing the highest peak.
+
+### Changed
+- Localised English is accepted for Swahili. In 914 of the new Swahili pairs the translators
+  rewrote the English with East African names and places (for example Kelechi -> Maria,
+  Kaduna -> Tanga, Lagos -> Dar es Salaam). Their English differs from the approved text mainly
+  in those names; one sheet also drops quotation marks, and a few lines are lightly reworded.
+  All other new pairs match the approved English exactly.
+- Ingest now also rejects rows where that name substitution garbled ordinary words (for
+  example "tuelEmma" for "tueleze", "vNelime" for "volume"), and localised rows where a name
+  was changed on one side only.
+- Dataset card: counts, the approved-English check described with the localisation exception,
+  and the Pidgin translation-depth limitation re-measured.
+
+### Excluded from release
+- 566 faulty rows, no sheet over 100:
+  - 364 whose English had been edited by the translator (232 Yorùbá, 132 Pidgin).
+  - 85 found by the alignment check (58 Yorùbá, 19 Swahili, 8 Pidgin): another sentence's
+    translation, most of the English dropped, or a tool message instead of a translation.
+  - 69 left untranslated; 20 garbled by the name substitution; 11 with a name changed on one
+    side only; 11 far outside the length norm; 3 with several alternatives in one cell;
+    2 tool messages; 1 in a non-Latin script.
+- 205 lines already live, 192 translated section headings or end markers, 36 duplicate pairs.
+
+### Notes
+- All text NFC. All records ship `verified: true`.
+
 ## [1.6.0] - 2026-10-06
 
 Adds 18,039 pairs, taking the corpus from 46,219 to 64,258.

@@ -4,6 +4,39 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.8.0] - 2026-10-14
+
+Adds 1,745 pairs, taking the corpus from 88,840 to 90,585.
+
+### Added
+- `swa-eng`: 957 pairs (`SWA-029483`-`SWA-030439`), 29,482 -> 30,439. Iya Joseph, with some
+  lines of A penguin's tale of Antarctica and The divorce. 157 of these pairs use the East
+  African localisation of the English (for example Iya -> Rehema, Lagos -> Dar es Salaam,
+  naira -> shillings).
+- `pcm-eng`: 491 pairs (`PCM-029880`-`PCM-030370`), 29,879 -> 30,370. In Paris.
+- `yor-eng`: 297 pairs (`YOR-029480`-`YOR-029776`), 29,479 -> 29,776. A penguin's tale of
+  Antarctica and the last lines of In Paris.
+
+### Changed
+- At the owner's request that every submitted sentence be published, 21 pairs (20 Pidgin,
+  1 Yorùbá) keep English that the translator lightly edited, usually by shortening the
+  approved line. Provenance marks them. All other new pairs match the approved English
+  exactly or its East African localisation.
+- Dataset card: counts, and the approved-English check described with this exception.
+
+### Excluded from release
+- 22 faulty rows:
+  - 16 Swahili rows where English and Swahili disagree on a name, number or place (for
+    example "thirty-one years" against "one hundred and thirty-one years"), including
+    2 rows garbled by the name substitution.
+  - 3 left untranslated (2 Pidgin, 1 Swahili), 1 with two alternatives in one cell,
+    1 with an empty cell, 1 with a line break inside the cell.
+- 301 duplicate pairs (the Yorùbá submission holds the same 300 rows twice), 21 translated
+  section headings, 11 lines already live.
+
+### Notes
+- All text NFC. All records ship `verified: true`.
+
 ## [1.7.0] - 2026-10-13
 
 Adds 24,582 pairs, taking the corpus from 64,258 to 88,840.

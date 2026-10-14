@@ -4,6 +4,27 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+## [1.9.0] - 2026-10-14
+
+Adds 391 Yorùbá pairs, taking `yor-eng` from 29,776 to 30,167 and the corpus from 90,585 to
+90,976.
+
+### Added
+- `yor-eng`: 391 pairs (`YOR-029777`-`YOR-030167`). These are rows that 1.2.0, 1.6.0 and 1.7.0
+  left out only because the translator had edited the English (87, 110 and 194 rows). They were
+  re-read from the original submissions after the owner asked that every submitted sentence be
+  published, and each was checked against its own English before release. Provenance marks them
+  as translator-edited English.
+
+### Excluded from release
+- Of the 435 candidate rows: 26 translated section headings, 13 with a fault (English cut off
+  or not English, the translation of another sentence, or a wrong number or date), and 5 lines
+  already live.
+
+### Notes
+- `swa-eng` and `pcm-eng` are unchanged.
+- All text NFC. All records ship `verified: true`.
+
 ## [1.8.0] - 2026-10-14
 
 Adds 1,745 pairs, taking the corpus from 88,840 to 90,585.

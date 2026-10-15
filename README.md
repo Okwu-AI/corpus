@@ -3,11 +3,11 @@
 Open parallel-text resources for Yorùbá, Swahili and Nigerian Pidgin, together with the
 validation tooling and documented review process used to produce them.
 
-**Current release:** v1.7 · **Licence:** Apache-2.0 (code) · CDLA-Permissive-2.0 (data) · CC BY 4.0 (docs) — see [LICENSING.md](LICENSING.md)
+**Current release:** v1.8 · **Licence:** Apache-2.0 (code) · CDLA-Permissive-2.0 (data) · CC BY 4.0 (docs) — see [LICENSING.md](LICENSING.md)
 
 | | |
 |---|---|
-| Corpus | 88,840 pairs — Yorùbá 29,479 · Swahili 29,482 · Nigerian Pidgin 29,879 |
+| Corpus | 90,585 pairs — Yorùbá 29,776 · Swahili 30,439 · Nigerian Pidgin 30,370 |
 | Access | Hugging Face: `Okwu/african-language-parallel-corpus` |
 | Citation | See `CITATION.cff` |
 | Contributing | See `CONTRIBUTING.md` |

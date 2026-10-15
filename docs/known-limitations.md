@@ -10,6 +10,14 @@
   metadata (dialect, domain, register, quality tier) is supported by the schema but not
   populated in this release.
 - **Validation coverage.** Records carry a `verified` flag indicating review status.
+- **Localised English (Swahili).** 1,071 `swa-eng` pairs (914 from 1.7.0, 157 from 1.8.0) use
+  English that the translators rewrote with East African names, places and currency (for example
+  Kelechi -> Maria, Kaduna -> Tanga, naira -> shillings). Each pair matches itself, but these lines
+  will not align with the same story in Yorùbá or Pidgin. They are listed in
+  [`english-exceptions.csv`](english-exceptions.csv).
+- **Edited English.** 21 pairs from 1.8.0 (20 Pidgin, 1 Yorùbá) keep English that the translator
+  lightly edited, usually by shortening the approved line, so it can differ from the same line in
+  other languages. They are listed in [`english-exceptions.csv`](english-exceptions.csv).
 - **Yorùbá diacritics.** A minority of Yorùbá records omit the sub-dot characters
   (`ẹ`, `ọ`, `ṣ`) entirely. These are distinct letters in Yorùbá orthography rather than
   optional accents, so their absence can be ambiguous. The affected rows are concentrated
@@ -18,7 +26,7 @@
   same vowel and several such combinations have no precomposed codepoint, so consumers
   comparing strings should normalise to NFC before comparing.
 - **Translation depth (Nigerian Pidgin).** Pidgin is English-lexified, so high word overlap
-  with the English source is expected. Even allowing for that, roughly 850 of the 27,835
+  with the English source is expected. Even allowing for that, roughly 900 of the 28,326
   records added since v1.1 (about 3%) sit close to the English, carrying Pidgin function
   words and orthography over otherwise English phrasing. They are genuine renderings rather
   than untranslated text, but they are thin.

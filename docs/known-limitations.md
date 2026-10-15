@@ -15,9 +15,9 @@
   Kelechi -> Maria, Kaduna -> Tanga, naira -> shillings). Each pair matches itself, but these lines
   will not align with the same story in Yorùbá or Pidgin. They are listed in
   [`english-exceptions.csv`](english-exceptions.csv).
-- **Edited English.** 21 pairs from 1.8.0 (20 Pidgin, 1 Yorùbá) keep English that the translator
-  lightly edited, usually by shortening the approved line, so it can differ from the same line in
-  other languages. They are listed in [`english-exceptions.csv`](english-exceptions.csv).
+- **Edited English.** 412 pairs keep English that the translator edited, usually by shortening or
+  rewording the approved line, so it can differ from the same line in other languages: 21 from
+  1.8.0 (20 Pidgin, 1 Yorùbá) and 391 Yorùbá from 1.9.0. They are listed in [`english-exceptions.csv`](english-exceptions.csv).
 - **Yorùbá diacritics.** A minority of Yorùbá records omit the sub-dot characters
   (`ẹ`, `ọ`, `ṣ`) entirely. These are distinct letters in Yorùbá orthography rather than
   optional accents, so their absence can be ambiguous. The affected rows are concentrated

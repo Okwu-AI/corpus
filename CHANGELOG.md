@@ -13,8 +13,8 @@ Adds 391 Yorùbá pairs, taking `yor-eng` from 29,776 to 30,167 and the corpus f
 - `yor-eng`: 391 pairs (`YOR-029777`-`YOR-030167`). These are rows that 1.2.0, 1.6.0 and 1.7.0
   left out only because the translator had edited the English (87, 110 and 194 rows). They were
   re-read from the original submissions after the owner asked that every submitted sentence be
-  published, and each was checked against its own English before release. Provenance marks them
-  as translator-edited English.
+  published, and each was checked against its own English before release. They are listed in
+  `docs/english-exceptions.csv`, and `docs/known-limitations.md` counts them.
 
 ### Excluded from release
 - Of the 435 candidate rows: 26 translated section headings, 13 with a fault (English cut off

@@ -41,8 +41,13 @@ Adds 1,745 pairs, taking the corpus from 88,840 to 90,585.
 ### Changed
 - At the owner's request that every submitted sentence be published, 21 pairs (20 Pidgin,
   1 Yorùbá) keep English that the translator lightly edited, usually by shortening the
-  approved line. Provenance marks them. All other new pairs match the approved English
-  exactly or its East African localisation.
+  approved line. All other new pairs match the approved English exactly or its East African
+  localisation, which now also covers currency (naira -> shillings).
+- The same applies to rows that earlier releases excluded only for translator-edited English
+  (172 in 1.6.0, 364 in 1.7.0): the Yorùbá ones are re-checked and added in 1.9.0, and the
+  Pidgin ones will be re-checked for a later release.
+- `docs/known-limitations.md` documents both English exceptions, and
+  `docs/english-exceptions.csv` lists the affected record IDs.
 - Dataset card: counts, and the approved-English check described with this exception.
 
 ### Excluded from release
@@ -52,8 +57,9 @@ Adds 1,745 pairs, taking the corpus from 88,840 to 90,585.
     2 rows garbled by the name substitution.
   - 3 left untranslated (2 Pidgin, 1 Swahili), 1 with two alternatives in one cell,
     1 with an empty cell, 1 with a line break inside the cell.
-- 301 duplicate pairs (the Yorùbá submission holds the same 300 rows twice), 21 translated
-  section headings, 11 lines already live.
+- 301 duplicate pairs: 297 Yorùbá (the submission holds the same 300 rows twice, and 3 of
+  those rows are section headings) and 4 Swahili. Also 21 translated section headings and
+  11 lines already live.
 
 ### Notes
 - All text NFC. All records ship `verified: true`.

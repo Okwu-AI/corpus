@@ -13,3 +13,7 @@ if the claim holds.
 
 Supported: the two most recent released versions.
 
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

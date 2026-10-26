@@ -24,3 +24,8 @@
 - "2 needed" on release = a second-maintainer approval, enforced by branch protection, not app logic.
 - Governance participant is deliberately read-heavy: visibility, not operational power.
 - V1 identity: **GitHub OAuth**. Free, no user database, and contributors already have accounts. Revisit if non-technical contributors need a path that avoids GitHub.
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

@@ -50,3 +50,8 @@ See `docs/getting-started.md` for loading, filtering and citation guidance.
 ## Known limitations
 
 See `docs/known-limitations.md`. Read it before using this data in published work.
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

@@ -301,3 +301,8 @@ Adds 14,523 pairs from commissioned human translation, taking the corpus from
 
 ## [1.0.0] - 2026-08-31
 - Initial public release.
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

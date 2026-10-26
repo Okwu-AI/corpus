@@ -9,3 +9,8 @@ Checks run on every contribution.
 | `check_duplicates.py` | No exact duplicate pairs |
 
 Language identity, benchmark-leakage, and provenance checks are planned for future releases.
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

@@ -13,3 +13,8 @@ Each record conforms to `schema/public-record.schema.json`.
 | `source` | string | Origin of the record |
 | `source_url` | string | Source URL where applicable |
 | `created_at` | date | Record creation date |
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

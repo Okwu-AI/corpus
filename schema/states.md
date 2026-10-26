@@ -19,3 +19,8 @@ The submission lifecycle uses these states:
 | `released` | Published in a versioned release | maintainer | `corrected`, `retracted` |
 | `corrected` | Changed after release, changelog entry exists | maintainer | `released` |
 | `retracted` | Removed after release, notice published | maintainer | terminal |
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

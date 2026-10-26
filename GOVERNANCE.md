@@ -30,3 +30,7 @@ by employment status alone.
 Routine changes: maintainer review, two approvals to release.
 Policy, licence, or scope changes: Steering Committee, decision recorded publicly.
 
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

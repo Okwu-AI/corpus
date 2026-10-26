@@ -19,3 +19,8 @@ See [data-schema.md](data-schema.md).
 ## Citation
 
 See [licensing-and-citation.md](licensing-and-citation.md) and `CITATION.cff`.
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

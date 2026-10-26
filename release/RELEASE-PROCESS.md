@@ -19,3 +19,8 @@ A released record is never silently edited. Corrections are published in a new v
 with a changelog entry. Withdrawn records are recorded with a public notice explaining why.
 
 ## Manifest fields
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

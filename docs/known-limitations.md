@@ -30,3 +30,8 @@
   records added since v1.1 (about 3%) sit close to the English, carrying Pidgin function
   words and orthography over otherwise English phrasing. They are genuine renderings rather
   than untranslated text, but they are thin.
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

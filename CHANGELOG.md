@@ -4,6 +4,22 @@ Every released version: what changed, what was corrected, what was withdrawn.
 
 ## [Unreleased]
 
+### Added
+- The CC BY 4.0 legal code (`LICENSES/CC-BY-4.0.txt`) and a licence notice at the end of each
+  covered document. `CONTRIBUTING.md` and the pull request template now say that contributions
+  are licensed under the licence for their kind.
+
+### Corrected
+- `LICENSING.md` said from 1.0.0 that attribution is required "under CC BY 4.0 for both data
+  and documentation". The data is under CDLA-Permissive-2.0, which does not require
+  attribution: its condition is that the agreement text is made available with the data.
+  Citation is requested, not required. The dataset card's licensing section, which could be
+  read the same way, was clarified on 2026-10-26.
+- `LICENSING.md` listed the schema under both Apache-2.0 and CC BY 4.0. The JSON schema is
+  Apache-2.0; the documentation, including the schema docs, is CC BY 4.0.
+- `LICENSING.md` asked for citation with "the release DOI". No DOI has been minted yet, so
+  citation now points to `CITATION.cff` only.
+
 ## [1.9.0] - 2026-10-14
 
 Adds 391 Yorùbá pairs, taking `yor-eng` from 29,776 to 30,167 and the corpus from 90,585 to
@@ -301,3 +317,8 @@ Adds 14,523 pairs from commissioned human translation, taking the corpus from
 
 ## [1.0.0] - 2026-08-31
 - Initial public release.
+
+---
+
+Okwu documentation © 2026 ESM Global Productions LLC, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->

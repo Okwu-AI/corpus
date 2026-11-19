@@ -1,7 +1,5 @@
 # Governance
 
-Structure from .
-
 ## Bodies
 **Steering Committee** — sets direction, approves policy and roadmap, resolves disputes
 the maintainers cannot. Meets quarterly, minutes published.

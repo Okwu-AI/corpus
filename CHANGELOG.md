@@ -10,6 +10,9 @@ Every released version: what changed, what was corrected, what was withdrawn.
   are licensed under the licence for their kind.
 
 ### Corrected
+- `README.md`: the quick start called `load_dataset` without a configuration name, which fails
+  because the dataset has three configurations. It now names one and says each has a single
+  `train` split.
 - `LICENSING.md` said from 1.0.0 that attribution is required "under CC BY 4.0 for both data
   and documentation". The data is under CDLA-Permissive-2.0, which does not require
   attribution: its condition is that the agreement text is made available with the data.

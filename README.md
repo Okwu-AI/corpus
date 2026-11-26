@@ -42,8 +42,13 @@ validation tooling and documented review process used to produce them.
 
 ```python
 from datasets import load_dataset
-ds = load_dataset("Okwu/african-language-parallel-corpus")
+
+# Choose one language pair: "yor-eng", "swa-eng" or "pcm-eng".
+ds = load_dataset("Okwu/african-language-parallel-corpus", "yor-eng", split="train")
 ```
+
+Each configuration has a single `train` split that holds every record. There is no official
+validation or test split yet.
 
 See `docs/getting-started.md` for loading, filtering and citation guidance.
 
